@@ -1,0 +1,132 @@
+/* Custom styles for university details page */
+
+/* Responsive text padding - applies to text elements only, not tables */
+.prose p,
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6,
+.prose ul,
+.prose ol,
+.prose blockquote,
+.prose div:not(.table-scroll-wrapper) {
+  padding-right: 0.5rem; /* Mobile: 8px */
+}
+
+@media (min-width: 640px) {
+  .prose p,
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6,
+  .prose ul,
+  .prose ol,
+  .prose blockquote,
+  .prose div:not(.table-scroll-wrapper) {
+    padding-right: 1rem; /* Small: 16px */
+  }
+}
+
+@media (min-width: 768px) {
+  .prose p,
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6,
+  .prose ul,
+  .prose ol,
+  .prose blockquote,
+  .prose div:not(.table-scroll-wrapper) {
+    padding-right: 2rem; /* Medium: 32px */
+  }
+}
+
+@media (min-width: 1024px) {
+  .prose p,
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6,
+  .prose ul,
+  .prose ol,
+  .prose blockquote,
+  .prose div:not(.table-scroll-wrapper) {
+    padding-right: 4rem; /* Large: 64px */
+  }
+}
+
+@media (min-width: 1280px) {
+  .prose p,
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6,
+  .prose ul,
+  .prose ol,
+  .prose blockquote,
+  .prose div:not(.table-scroll-wrapper) {
+    padding-right: 5rem; /* XL: 80px (~20% on most screens) */
+  }
+}
+
+/* Table scroll wrapper - ensure full width and scrollability */
+.table-scroll-wrapper {
+  margin: 1rem 0;
+  padding-right: 0 !important;
+  overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  position: relative;
+  z-index: 1;
+  /* Ensure touch scrolling works */
+  touch-action: pan-x;
+  /* Prevent selection issues */
+  user-select: none;
+  -webkit-user-select: none;
+  /* Prevent overscroll bounce */
+  overscroll-behavior-x: contain;
+}
+
+.table-scroll-wrapper table {
+  margin: 0 !important;
+  width: 100%;
+  min-width: max-content;
+}
+
+/* Ensure table cells don't have padding issues */
+.table-scroll-wrapper td,
+.table-scroll-wrapper th {
+  white-space: nowrap;
+}
+
+/* Scrollbar styling for better visibility */
+.table-scroll-wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+.table-scroll-wrapper::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+.table-scroll-wrapper::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.table-scroll-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
