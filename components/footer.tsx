@@ -35,15 +35,14 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-3 group cursor-pointer">
               <div className="relative">
-                <Image
-                  src="/nems-logo.png"
-                  alt="NEMS Logo"
-                  width={32}
-                  height={32}
-                  className="h-8 w-auto group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-violet-600 rounded-full opacity-0 group-hover:opacity-10 group-hover:animate-ping" />
+                <div className="h-8 w-8 bg-gradient-to-br from-violet-600 to-electric-600 rounded-lg flex items-center justify-center text-white font-bold text-sm group-hover:scale-105 transition-transform duration-300">
+                  GSH
+                </div>
+                <div className="absolute inset-0 bg-violet-600 rounded-lg opacity-0 group-hover:opacity-10 group-hover:animate-ping" />
               </div>
+              <span className="font-bold text-lg bg-gradient-to-r from-violet-600 to-electric-600 bg-clip-text text-transparent">
+                Global Study Hub
+              </span>
             </div>
             {(!loading && settings?.description) ? (
               <p className="text-sm text-gray-600 leading-relaxed">
@@ -51,7 +50,7 @@ export function Footer() {
               </p>
             ) : (
               <p className="text-sm text-gray-600 leading-relaxed">
-                Your trusted partner for global education opportunities and visa solutions.
+                Your trusted partner for international education opportunities and student success worldwide.
               </p>
             )}
             <div className="flex space-x-4">
@@ -135,13 +134,13 @@ export function Footer() {
                     href="/#consultation-form"
                     className="text-xs text-gray-600 hover:text-emerald-600 block transition-colors duration-300 hover:translate-x-1"
                   >
-                    Education Consultation
+                    Study Consultation
                   </Link>
                   <Link
                     href="/travel"
                     className="text-xs text-gray-600 hover:text-emerald-600 block transition-colors duration-300 hover:translate-x-1"
                   >
-                    Travel Services
+                    Student Support
                   </Link>
                 </div>
               </div>
@@ -213,13 +212,13 @@ export function Footer() {
                 href="/#consultation-form"
                 className="text-sm text-gray-600 hover:text-emerald-600 block transition-colors duration-300 hover:translate-x-1"
               >
-                Education Consultation
+                Study Consultation
               </Link>
               <Link
                 href="/travel"
                 className="text-sm text-gray-600 hover:text-emerald-600 block transition-colors duration-300 hover:translate-x-1"
               >
-                Travel Services
+                Student Support
               </Link>
             </div>
           </div>
@@ -281,9 +280,9 @@ export function Footer() {
 
         <div className="border-t border-gray-200 mt-8 pt-8 text-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} {!loading && settings?.companyName ? settings.companyName : 'NEMS'}. All rights reserved.
+            © {new Date().getFullYear()} {!loading && settings?.companyName ? settings.companyName : 'Global Study Hub'}. All rights reserved.
             <br />
-            Created by <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-300">FH LTD</a>
+            Created by <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-300">StudyTech Solutions</a>
           </p>
         </div>
       </div>

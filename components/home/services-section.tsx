@@ -6,10 +6,10 @@ import { ScrollReveal } from "@/components/animations/scroll-reveal"
 const services = [
   {
     icon: GraduationCap,
-    title: "Education & Visa Consultation",
+    title: "University Selection & Admission",
     description:
-      "Expert guidance for university selection, application process, and visa documentation for studying abroad.",
-    features: ["University Selection", "Application Assistance", "Visa Documentation", "Interview Preparation"],
+      "Comprehensive guidance for choosing the right university and program based on your academic goals and budget.",
+    features: ["University Matching", "Application Support", "Admission Strategy", "Scholarship Guidance"],
     gradient: "from-violet-500 to-violet-600",
     bgGradient: "from-violet-50 to-violet-100",
     borderColor: "border-violet-200",
@@ -17,10 +17,10 @@ const services = [
   },
   {
     icon: Plane,
-    title: "Travel Services",
+    title: "Student Visa & Immigration",
     description:
-      "Comprehensive travel solutions including flight bookings, accommodation, and travel insurance for students.",
-    features: ["Flight Bookings", "Accommodation", "Travel Insurance", "Airport Assistance"],
+      "Professional assistance with student visa applications, documentation, and immigration requirements.",
+    features: ["Visa Applications", "Document Preparation", "Interview Coaching", "Post-Arrival Support"],
     gradient: "from-emerald-500 to-emerald-600",
     bgGradient: "from-emerald-50 to-emerald-100",
     borderColor: "border-emerald-200",
@@ -28,10 +28,10 @@ const services = [
   },
   {
     icon: FileText,
-    title: "Document Consultation",
+    title: "Career Counseling & Guidance",
     description:
-      "Professional assistance with document preparation, verification, and submission for international applications.",
-    features: ["Document Verification", "Translation Services", "Submission Assistance", "Follow-up Support"],
+      "Professional career guidance to help you choose the right path and maximize your international education investment.",
+    features: ["Career Assessment", "Industry Insights", "Skill Development", "Job Market Analysis"],
     gradient: "from-electric-500 to-electric-600",
     bgGradient: "from-electric-50 to-electric-100",
     borderColor: "border-electric-200",

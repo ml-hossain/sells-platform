@@ -8,10 +8,10 @@ import { getTeamMembers } from "@/lib/services/team-service"
 import type { TeamMember } from "@/lib/types/team-member"
 
 const stats = [
-  { icon: Users, value: "12,500+", label: "Students Helped" },
-  { icon: Globe, value: "35+", label: "Countries" },
-  { icon: Award, value: "15+", label: "Years Experience" },
-  { icon: TrendingUp, value: "96%", label: "Success Rate" },
+  { icon: Users, value: "8,500+", label: "Students Guided" },
+  { icon: Globe, value: "40+", label: "Countries" },
+  { icon: Award, value: "12+", label: "Years Experience" },
+  { icon: TrendingUp, value: "94%", label: "Success Rate" },
 ]
 
 // Team data will be loaded from Firebase
@@ -20,17 +20,22 @@ const values = [
   {
     icon: Target,
     title: "Excellence",
-    description: "We strive for excellence in every aspect of our service delivery.",
+    description: "We deliver exceptional educational guidance with attention to detail and quality.",
   },
   {
     icon: Heart,
     title: "Integrity",
-    description: "We maintain the highest standards of honesty and transparency.",
+    description: "We maintain transparent communication and ethical practices in all our services.",
   },
   {
     icon: Users,
-    title: "Student-Centric",
-    description: "Every decision we make is focused on student success and satisfaction.",
+    title: "Student-Centered",
+    description: "Every decision we make prioritizes our students' academic success and personal growth.",
+  },
+  {
+    icon: Eye,
+    title: "Innovation",
+    description: "We continuously evolve our methods to provide cutting-edge educational solutions.",
   },
 ]
 
@@ -70,10 +75,10 @@ export default function AboutPage() {
       <div className="container space-y-16">
         {/* Hero Section */}
         <section className="text-center space-y-6">
-          <h1 className="text-4xl font-bold">About NextGen EduMigrate Solutions</h1>
+          <h1 className="text-4xl font-bold">About Global Study Hub</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We are a leading education consultancy dedicated to helping students achieve their dreams of studying
-            abroad. With over 15 years of experience, we've successfully guided thousands of students to top
+            abroad. With over 12 years of experience, we've successfully guided thousands of students to top
             universities worldwide.
           </p>
         </section>
@@ -100,9 +105,9 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-bold">Our Mission</h2>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                To empower students worldwide by providing comprehensive, personalized guidance for international
-                education opportunities. We believe that quality education should be accessible to all, regardless of
-                geographical boundaries.
+                To empower students worldwide by providing exceptional educational guidance and support for 
+                international study opportunities. We are committed to making global education accessible, 
+                affordable, and achievable for students from all backgrounds.
               </p>
             </CardContent>
           </Card>

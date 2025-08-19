@@ -31,17 +31,17 @@ export function HeroSection() {
             <ScrollReveal direction="left">
               <div className="space-y-4">
                 <div className="inline-flex items-center px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-sm font-medium">
-                  #1 Trusted Education Consultancy
+                  #1 Trusted Study Abroad Partner
                 </div>
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold tracking-tight leading-tight">
-                  Your Gateway to{" "}
+                  Transform Your Future with{" "}
                   <span className="bg-gradient-to-r from-violet-600 via-electric-500 to-emerald-500 bg-clip-text text-transparent animate-gradient-x">
                     Global Education
                   </span>
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-lg leading-relaxed">
-                  Expert guidance for studying abroad, visa assistance, and comprehensive travel solutions. Turn your
-                  international education dreams into reality.
+                  Professional guidance for international education, university admissions, and visa applications. 
+                  Make your study abroad dreams a reality with our expert support.
                 </p>
               </div>
             </ScrollReveal>
@@ -53,7 +53,7 @@ export function HeroSection() {
                   onClick={handleStartJourney}
                   className="text-lg px-8 bg-gradient-to-r from-violet-600 to-electric-600 hover:from-violet-700 hover:to-electric-700 shadow-lg hover:shadow-violet-500/25 transition-all duration-300 hover:scale-105 group"
                 >
-                  Start Your Journey
+                  Explore Universities
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <Button
@@ -62,7 +62,7 @@ export function HeroSection() {
                   className="text-lg px-8 border-2 border-violet-200 text-violet-600 hover:bg-violet-50 hover:border-violet-300 transition-all duration-300 hover:scale-105 group bg-transparent"
                 >
                   <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                  Watch Success Stories
+                  Watch Student Stories
                 </Button>
               </div>
             </ScrollReveal>
@@ -71,19 +71,19 @@ export function HeroSection() {
               <div className="flex items-center justify-center sm:justify-start space-x-4 sm:space-x-8 pt-8">
                 <div className="text-center group cursor-pointer">
                   <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-violet-600 to-electric-500 bg-clip-text text-transparent group-hover:scale-110 transition-transform">
-                    2+
+                    10+
                   </div>
                   <div className="text-xs sm:text-sm text-gray-600">Years Experience</div>
                 </div>
                 <div className="text-center group cursor-pointer">
                   <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-electric-500 to-emerald-500 bg-clip-text text-transparent group-hover:scale-110 transition-transform">
-                    10+
+                    25+
                   </div>
                   <div className="text-xs sm:text-sm text-gray-600">Countries</div>
                 </div>
                 <div className="text-center group cursor-pointer">
                   <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-emerald-500 to-sunset-500 bg-clip-text text-transparent group-hover:scale-110 transition-transform">
-                    100%
+                    95%
                   </div>
                   <div className="text-xs sm:text-sm text-gray-600">Success Rate</div>
                 </div>
@@ -101,14 +101,13 @@ export function HeroSection() {
                 />
               </div>
 
-              {/* Floating success notification */}
               <div className="absolute -bottom-3 -left-3 sm:-bottom-6 sm:-left-6 bg-white dark:bg-gray-900 p-2 sm:p-4 rounded-xl shadow-lg border border-emerald-200 animate-bounce-in hover:scale-105 transition-transform cursor-pointer">
                 <div className="flex items-center space-x-2 sm:space-x-3">
                   <div className="w-8 h-8 sm:w-12 sm:h-12 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full flex items-center justify-center animate-pulse">
                     <span className="text-white text-sm sm:text-xl">✓</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-emerald-700 text-xs sm:text-sm">Visa Approved!</div>
+                    <div className="font-semibold text-emerald-700 text-xs sm:text-sm">Application Accepted!</div>
                     <div className="text-xs text-gray-600"></div>
                   </div>
                 </div>
@@ -118,9 +117,9 @@ export function HeroSection() {
               <div className="absolute -top-3 -right-3 sm:-top-6 sm:-right-6 bg-white dark:bg-gray-900 p-2 sm:p-4 rounded-xl shadow-lg border border-violet-200 animate-float hover:scale-105 transition-transform cursor-pointer">
                 <div className="text-center">
                   <div className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-violet-600 to-electric-500 bg-clip-text text-transparent">
-                    1K+
+                    2.5K+
                   </div>
-                  <div className="text-xs text-gray-600">Happy Students</div>
+                  <div className="text-xs text-gray-600">Students Placed</div>
                 </div>
               </div>
             </div>

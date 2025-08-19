@@ -103,13 +103,13 @@ export function ConsultationForm() {
           <div className="text-center mb-8">
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-gradient-to-r from-violet-100 to-emerald-100 text-violet-700 text-sm font-medium mb-3">
               <Sparkles className="h-4 w-4 mr-2" />
-              Free Consultation Available
+              Expert Education Guidance
             </div>
             <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-violet-600 to-emerald-600 bg-clip-text text-transparent">
-              Book Your Free Consultation
+              Schedule Your Study Abroad Consultation
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Get personalized guidance from our education experts. Schedule your free consultation today.
+              Connect with our education specialists to explore your international study options and create a personalized plan.
             </p>
           </div>
         </ScrollReveal>

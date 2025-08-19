@@ -9,8 +9,8 @@ import ServiceWorkerRegistration from "@/components/service-worker-registration"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "NextGen EduMigrate Solutions - Your Gateway to Global Education",
-  description: "Expert education consultancy services for studying abroad, visa assistance, and travel solutions.",
+  title: "Global Study Hub - Your Path to International Education",
+  description: "Professional education consultancy for overseas studies, university admissions, and student visa services.",
     generator: 'v0.dev'
 }
 

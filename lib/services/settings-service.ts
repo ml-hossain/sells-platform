@@ -242,48 +242,48 @@ export const saveCompanySettings = async (data: SettingsFormData): Promise<void>
 // Get default settings for new installations
 export const getDefaultSettings = (): SettingsFormData => {
   return {
-    companyName: 'NextGen EduMigrate',
-    tagline: 'Your Gateway to Global Education',
-    description: 'Empowering students to achieve their international education dreams with expert guidance and comprehensive support.',
+    companyName: 'Global Study Hub',
+    tagline: 'Your Path to International Education',
+    description: 'Empowering students to achieve their international education goals with professional guidance and comprehensive support services.',
 
     // Main Office
-    mainOfficeAddress: 'Holding No. 137',
-    mainOfficeSuite: 'Wireless Road Ward No. 25',
-    mainOfficeCity: 'Mymensingh',
-    mainOfficeState: 'MY',
-    mainOfficePostalCode: '2200',
-    mainOfficeCountry: 'Bangladesh',
+    mainOfficeAddress: '123 Education Avenue',
+    mainOfficeSuite: 'Suite 500, Study Center',
+    mainOfficeCity: 'Metropolitan City',
+    mainOfficeState: 'MC',
+    mainOfficePostalCode: '10001',
+    mainOfficeCountry: 'Global',
 
     // Contact Information
     phoneNumbers: [
       {
         id: '1',
         title: 'Main Phone',
-        number: '+60 17-469 0548'
+        number: '+1 (555) 123-4567'
       },
       {
         id: '2',
-        title: 'Toll-Free Phone',
-        number: '+880 1815-511 442'
+        title: 'Student Support',
+        number: '+1 (555) 987-6543'
       },
       {
         id: '3',
-        title: 'WhatsApp Phone',
-        number: '+880 1815-511 441'
+        title: 'WhatsApp Support',
+        number: '+1 (555) 456-7890'
       },
       {
         id: '4',
-        title: 'Fax Number',
-        number: '+880 1846-707 951'
+        title: 'Emergency Line',
+        number: '+1 (555) 555-0123'
       }
     ],
 
     // Email Addresses
-    generalEmail: 'info@nextgenedumigrate.com',
-    admissionsEmail: 'admissions@nextgenedumigrate.com',
-    supportEmail: 'support@nextgenedumigrate.com',
-    salesEmail: 'sales@nextgenedumigrate.com',
-    careersEmail: 'careers@nextgenedumigrate.com',
+    generalEmail: 'info@globalstudyhub.com',
+    admissionsEmail: 'admissions@globalstudyhub.com',
+    supportEmail: 'support@globalstudyhub.com',
+    salesEmail: 'sales@globalstudyhub.com',
+    careersEmail: 'careers@globalstudyhub.com',
 
     // Business Hours
     weekdayOpen: '09:00',
@@ -296,12 +296,12 @@ export const getDefaultSettings = (): SettingsFormData => {
     timezone: 'EST',
 
     // Social Media
-    website: 'https://nextgenedumigrate.com',
-    facebook: 'https://facebook.com/nextgenedumigrate',
-    twitter: 'https://twitter.com/nextgenedumigrate',
-    linkedin: 'https://linkedin.com/company/nextgenedumigrate',
-    instagram: 'https://instagram.com/nextgenedumigrate',
-    youtube: 'https://youtube.com/@nextgenedumigrate',
+    website: 'https://globalstudyhub.com',
+    facebook: 'https://facebook.com/globalstudyhub',
+    twitter: 'https://twitter.com/globalstudyhub',
+    linkedin: 'https://linkedin.com/company/globalstudyhub',
+    instagram: 'https://instagram.com/globalstudyhub',
+    youtube: 'https://youtube.com/@globalstudyhub',
   }
 }
 

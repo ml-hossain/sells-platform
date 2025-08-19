@@ -9,8 +9,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "University", href: "/universities" },
-  { name: "Travel Service", href: "/travel" },
+  { name: "Universities", href: "/universities" },
+  { name: "Study Abroad", href: "/travel" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ]
@@ -38,15 +38,14 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-3 group">
           <div className="relative">
-            <Image 
-              src="/nems-logo.png" 
-              alt="NEMS Logo" 
-              width={40} 
-              height={40} 
-              className="h-10 w-auto group-hover:scale-105 transition-transform duration-300"
-            />
-            <div className="absolute inset-0 bg-violet-600 rounded-full opacity-0 group-hover:opacity-10 group-hover:animate-ping" />
+            <div className="h-10 w-10 bg-gradient-to-br from-violet-600 to-electric-600 rounded-lg flex items-center justify-center text-white font-bold text-lg group-hover:scale-105 transition-transform duration-300">
+              GSH
+            </div>
+            <div className="absolute inset-0 bg-violet-600 rounded-lg opacity-0 group-hover:opacity-10 group-hover:animate-ping" />
           </div>
+          <span className="hidden sm:block font-bold text-lg bg-gradient-to-r from-violet-600 to-electric-600 bg-clip-text text-transparent">
+            Global Study Hub
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -69,7 +68,7 @@ export function Header() {
             onClick={handleConsultationClick}
             className="bg-gradient-to-r from-violet-600 to-electric-600 hover:from-violet-700 hover:to-electric-700 shadow-lg hover:shadow-violet-500/25 transition-all duration-300 hover:scale-105"
           >
-            Get Consultation
+            Free Consultation
           </Button>
         </div>
 
@@ -104,7 +103,7 @@ export function Header() {
                   }}
                   className="bg-gradient-to-r from-violet-600 to-electric-600"
                 >
-                  Get Consultation
+                  Free Consultation
                 </Button>
               </div>
             </div>

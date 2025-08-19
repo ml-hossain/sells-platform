@@ -74,7 +74,7 @@ export default function ContactPage() {
         <div className="text-center mb-8 sm:mb-10 lg:mb-12">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">Contact Us</h1>
           <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
-            Ready to start your international education journey? Get in touch with our expert consultants today.
+            Ready to explore your study abroad options? Connect with our education specialists for personalized guidance.
           </p>
         </div>
 

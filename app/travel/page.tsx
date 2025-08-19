@@ -9,27 +9,27 @@ import { Plane, Hotel, Shield, MapPin, Clock, CheckCircle } from "lucide-react"
 const services = [
   {
     icon: Plane,
-    title: "Flight Booking Services",
-    description: "Competitive rates on international flights with flexible booking options.",
-    features: ["Best rates", "Flexible dates", "24/7 support", "Group bookings"],
+    title: "Pre-Departure Preparation",
+    description: "Complete preparation support before you leave for your studies abroad.",
+    features: ["Document checklist", "Packing guidance", "Currency exchange", "Travel arrangements"],
   },
   {
     icon: Hotel,
     title: "Accommodation Assistance",
-    description: "Help finding suitable housing options in your destination city.",
-    features: ["Hotels", "Private apartments", "Homestay options", "Safety verified"],
+    description: "Help finding safe and affordable accommodation near your university.",
+    features: ["Housing search", "Lease assistance", "Safety verification", "Local area guidance"],
   },
   {
     icon: Shield,
-    title: "Travel Insurance",
-    description: "Comprehensive travel and health insurance coverage for international travelers.",
-    features: ["Medical coverage", "Trip cancellation", "Emergency evacuation", "24/7 assistance"],
+    title: "Student Insurance",
+    description: "Comprehensive insurance coverage for international students.",
+    features: ["Health coverage", "Academic protection", "Emergency assistance", "24/7 support"],
   },
   {
     icon: MapPin,
-    title: "Airport Transfer",
-    description: "Safe and reliable airport pickup and drop-off services in major cities.",
-    features: ["Meet & greet", "Luggage assistance", "Direct to accommodation", "Multilingual drivers"],
+    title: "Arrival Support",
+    description: "Assistance when you arrive in your destination country.",
+    features: ["Airport pickup", "University orientation", "Local registration", "Emergency contacts"],
   },
 ]
 
@@ -54,13 +54,13 @@ export default function TravelPage() {
       <div className="container space-y-16">
         {/* Hero Section */}
         <section className="text-center space-y-6">
-          <h1 className="text-4xl font-bold">Travel Services for International Travelers</h1>
+          <h1 className="text-4xl font-bold">Study Abroad Support Services</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive travel solutions to make your international journey smooth and hassle-free. From flight
-            bookings to accommodation, we've got you covered.
+            Comprehensive support services to ensure your international education journey is smooth and successful. 
+            From pre-departure preparation to on-arrival assistance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={handleGetQuote}>Get Travel Quote</Button>
+            <Button size="lg" onClick={handleGetQuote}>Get Support Quote</Button>
           </div>
         </section>
 
